@@ -1,5 +1,5 @@
-# hx-vue 
-# vue 脚手架 内置 路由 vuex 登录 路由拦截
+
+# vue pc端 脚手架 内置 路由 vuex 登录 路由拦截 element-ui
 
 ## Project setup
 ```
