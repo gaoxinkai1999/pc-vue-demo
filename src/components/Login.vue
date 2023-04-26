@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm"  class="login-form">
-      <h3 class="title">后台管理系统</h3>
+      <h3 class="title">和信后台管理系统</h3>
       <el-form-item prop="username">
         <el-input
             v-model="loginForm.username"
@@ -22,7 +22,7 @@
         </el-input>
       </el-form-item>
 
-      <el-checkbox v-model="loginForm.rememberMe" style="margin:0px 0px 25px 0px;">记住密码</el-checkbox>
+<!--      <el-checkbox v-model="loginForm.rememberMe" style="margin:0px 0px 25px 0px;">记住密码</el-checkbox>-->
       <el-form-item style="width:100%;">
         <el-button
             :loading="loading"
@@ -54,7 +54,7 @@ export default {
       loginForm:{
         username:'',
         password:'',
-        rememberMe:false
+        // rememberMe:false
       },
       loading:false
     }
@@ -70,8 +70,6 @@ export default {
       //iViewUi的友好提示
       //登录成功后跳转到指定页面
       this.$router.push("/index");
-
-
 
     }
   }

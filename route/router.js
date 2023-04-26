@@ -19,14 +19,14 @@ const routes=[
             isLogin: false
         }
     },
-    // {
-    //     // 登录
-    //     path: '/',
-    //     component: Login,
-    //     meta: {
-    //         isLogin: false
-    //     }
-    // },
+    {
+        // 登录
+        path: '/',
+        component: Login,
+        meta: {
+            isLogin: false
+        }
+    },
     {
 
         path: '/index',
